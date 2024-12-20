@@ -47,6 +47,12 @@ button{
   border-radius: 4px;
   cursor: pointer;
 }
+button:hover{
+  opacity: 0.5;
+}
+button:active{
+  opacity: 0.3
+}
 .bottom{
   display: flex;
   flex-direction: row;
